@@ -1,6 +1,6 @@
 package By.belhardj19.lessons.lesson02;
 
-public class PrimitiveExample {
+public class primitiveExample {
 
     //psvm
     public static void main(String[] args) {
@@ -13,7 +13,6 @@ public class PrimitiveExample {
         int k = 0;
         System.out.println(k++);
         System.out.println(++k);
-
 
     }
 }

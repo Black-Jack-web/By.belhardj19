@@ -1,4 +1,4 @@
-package By.belhardj19.lessons.lesson02;
+package By.belhardj19.homework.homework_lesson2;
 
 
 public class homework {
