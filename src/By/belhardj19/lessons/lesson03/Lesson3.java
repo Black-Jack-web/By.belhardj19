@@ -5,29 +5,29 @@ public class Lesson3 {
 
     public static void main(String[] args) {
 
-        int a = 15;
+        int a = -15;
         int b = 7;
+
         if (a > b + b) {
-            System.out.println(a + " more than " + (b + b));
-            System.out.println("yes");
-
-
+            System.out.println(a + a + " more than " + (b + b));
+            System.out.println("Yes");
+            a = 110;
+            int c = 1100;
         }
+
         String result;
         if (a < 10) {
-            result = ("Jacket");
+            result = "Jacket";
         } else if (a < 18) {
-            result = ("Sweater");
-            a = 0;
+            result = "Sweater";
         } else if (a < 25) {
-            result = ("Pants");
-
+            result = "Pants";
         } else {
-            result = ("nothing");
+            result = "nothing";
         }
 
-
+        System.out.println(result);
+        System.out.println(a);
     }
 }
-
 
