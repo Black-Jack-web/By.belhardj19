@@ -52,6 +52,7 @@ public class Lesson03_4 {
                 System.out.println("fuck");
                 break;
             default:
+                System.out.println("invalid input");
 
 
         }
