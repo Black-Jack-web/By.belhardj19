@@ -7,23 +7,33 @@ public class main {
         brazil.title = "Brazil";
         brazil.zipCode = 123456;
 
-        Person Alfredo = new Person();
-        Alfredo.name = "Alfredo";
-        Alfredo.age = 22;
-        Alfredo.country = brazil;
-        Alfredo.sex=Sex.MALE;
+        Person alfredo = new Person("Alfredo", 21, brazil, Sex.MALE);
 
-        Alfredo.walk();
-        Alfredo.growOld();
-        Alfredo.eat("fish");
-        System.out.println(Alfredo.age);
+        alfredo.name = "Alfredo";
+        alfredo.age = 21;
+        alfredo.country = brazil;
+        alfredo.sex = Sex.MALE;
+
+        Person tereza = new Person("Tereza", 20, brazil, Sex.FEMALE);
+        tereza.name = "Tereza";
+        tereza.age = 20;
+        tereza.country = brazil;
+        tereza.sex = Sex.FEMALE;
+
+        System.out.println(tereza.age);
+        System.out.println(alfredo.country.zipCode);
+        System.out.println(tereza.country.zipCode);
 
 
-        Alfredo.toString();
-        System.out.println("Alfredo is" + Alfredo);
+        alfredo.walk();
+        alfredo.eat("fish");
 
+        int newAge = alfredo.growOld();
+        System.out.println(newAge);
+        System.out.println(alfredo.growOld());
 
-
+        System.out.println(alfredo.toString());
+        System.out.println(tereza);
 
     }
 }
