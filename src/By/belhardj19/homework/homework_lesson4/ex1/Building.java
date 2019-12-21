@@ -1,20 +1,44 @@
 package By.belhardj19.homework.homework_lesson4.ex1;
 
 public class Building {
-    String adress;
-    String flours;
-    String elevator;
-    String bricks;
+    int adress;
+    int flours;
+    boolean elevator;
+    String material;
+    String name;
 
 
-    public Building(String adress, String flours, String lift, String bricks) {
+    public Building(int adress, int flours, boolean elevator, String material, String name) {
         this.adress = adress;
-        this.flours = flours;
-        this.elevator = elevator;
-        this.bricks = bricks;
+        this.flours = 15;
+        this.elevator = true;
+        this.material = "bricks";
+        this.name = name;
     }
 
-    Building (String name){
-     /*   this.adress = */
+    public Building() {
+
     }
+
+    @Override
+    public String toString() {
+        return "Building{" +
+                "adress=" + adress +
+                ", flours=" + flours +
+                ", elevator=" + elevator +
+                ", material='" + material + '\'' +
+                ", name='" + name + '\'' +
+                '}';
+    }
+
+    Building(String name){
+        this.adress = 24;
+        this.elevator = true;
+        this.material = "bricks";
+        this.flours = 15;
+        this.name = "Onliner";
+
+
+    }
+
 }
