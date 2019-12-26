@@ -4,22 +4,16 @@ public class Table {
     int legs;
     int height;
     String material;
-    String type;
+    TypeTable  type;
     int price;
-
-    public Table (int legs, int height, String material, String type, int price) {
-        this.legs = legs;
-        this.height = height;
-        this.material = material;
-        this.type = type;
-        this.price = price;
-    }
-
-
 
 
     public Table(int legs, int height, String glass, TypeTable other, int price) {
-
+        this.legs = legs;
+        this.height = height;
+        this.price = price;
+        this.material = glass;
+        this.type = other;
     }
 
 
@@ -33,6 +27,7 @@ public class Table {
                 ", price=" + price + " Beautiful" +
                 '}';
     }
+
 }
 
 

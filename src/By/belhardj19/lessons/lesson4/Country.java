@@ -1,4 +1,4 @@
-package By.belhardj19.lessons.lesson04;
+package By.belhardj19.lessons.lesson4;
 
 public class Country {
 

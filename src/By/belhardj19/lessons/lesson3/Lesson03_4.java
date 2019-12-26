@@ -1,4 +1,4 @@
-package By.belhardj19.lessons.lesson03;
+package By.belhardj19.lessons.lesson3;
 
 public class Lesson03_4 {
     /*public static void main(String[] args) {
