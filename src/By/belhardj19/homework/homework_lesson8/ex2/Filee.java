@@ -2,7 +2,6 @@ package By.belhardj19.homework.homework_lesson8.ex2;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 import java.util.Scanner;
 
 public class Filee {
@@ -22,7 +21,12 @@ public class Filee {
         for (int i = 0; i < line.size(); i++)
         {
             System.out.print(line.get(i));
+
         }
 
+
+
     }
+
+
 }

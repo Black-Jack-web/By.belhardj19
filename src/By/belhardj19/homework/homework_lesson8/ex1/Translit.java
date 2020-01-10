@@ -93,7 +93,7 @@ public class Translit {
 
 
     public static void main(String[] args) {
-        String test = "Боже как я устал писать этот текст.... Я спать.";
+        String test = "Боже как я устал писать этот код.... Я спать.";
         System.out.println( toTranslit(test));
     }
 
